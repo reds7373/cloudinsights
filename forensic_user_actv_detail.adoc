@@ -1,0 +1,11 @@
+---
+sidebar: sidebar
+permalink: forensic_user_actv_detail.html
+keywords:  Forensic, user, user activity detail summary: forensic user detail
+---
+
+= Forensic User Activity Detail
+
+[lead]
+
+The User Activity detail views help you understand
