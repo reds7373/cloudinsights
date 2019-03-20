@@ -1,0 +1,78 @@
+
+---
+sidebar: sidebar
+permalink: task_config_cs_incloud.html
+keywords:  Cloud, Storage, AWS, Cloud Volumes
+summary: Cloud Secure configured in the Cloud
+---
+
+= Running Cloud Secure in the Cloud 
+
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Cloud Secure can identify malicious data access and compromised users accessing Cloud Volumes. It provides centralized visibility and control of all corporate data access across cloud volumes environments to ensure security and compliance goals are met.
+
+== Cloud Ontap Storage Configuration
+
+.Steps 
+
+. Log into Cloud Central and navigate to the OnCommand Cloud Managers link and open the relevant OnCommand Cloud Manager link. 
+
+. In OnCommand Cloud Manager, run 'Add a working environment': 
+
+.. Select AWS Cloud Volumes Ontap HA' or 'AWS -Cloud Volumes ONTAP' (for a single node).
+.. Set the cluster name and admin credentials.   
+.. Select a single AZ (Availability Zone). 
+
+.. Use the default data LIF IP address to connect the data collector from the Cloud Secure agent. 
++
+If a cluster node failure occurs, the data LIF automatically fails over to the available node in the HA pair.
+
+..  Select the Region (and zone?)
+
+//'Location'(for us(netapp HCL users), this is restricted to -US East(N. Virginia)), 
+
+.. 'VPC' (check available IP address count here), add required subnets.  The VPC must match the VPC of the EC2 RHEL VM VPC you have access to.
+
+.. Use the default 'generated security group' or the 'existing security group'.  
+
+//(or) the 'existing security group' 
+
+//(in this case, select the 'default Openlab VPC security group' SG here).
+
+.. Select password for 'node authentication method'. 
++
+Password is easier to use, compared to the PEM based authentication. 
+
+.. Select the 'SG for mediator' same as above (default Openlab VPC security group' SG). 
+
+.. Select the key pair name and internet connection method as 'public address based'.
+
+..  Select 'Disable data volume encryption'.  
+
+.. Set 'Use BYOL license' to 'no'.
+
+.. Select 'POC and small workloads' as the targeted workloads. 
++
+This setting results in lower AWS billing charges. 
+
+.. Do not enable 'NSS feedback'.
+  
+.. In the next page, supply the required details to create: 
++
+* Data SVM  
+* Cloud Ontap data volume. Define size, snapshot policy, export protocol, 'access control' as a custom export policy and provide the same subnet hash as the subnet the COT instance and the EC2 RHEL Agent instance reside in.
+
+.. Review the summary page and click GO
++
+The COT instance should be up and running in 30 minutes.
+
+
+

@@ -1,0 +1,74 @@
+---
+sidebar: sidebar
+permalink: task_add_agent_new.html
+keywords:  agent, Cloud Secure, installation, log in, 
+summary: Adding Cloud Secure agents
+---
+
+= Agent Installation
+
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Cloud Secure collects user activity data using one or more agents. Agents connect to devices in your environment and collect data that is sent to the Cloud Secure SaaS layer for analysis. 
+
+.Before you begin
+
+* The 'sudo su –' command is required for installation, running scripts, and uninstall.
+
+.Steps to installation
+
+. Log in to the agent server
+
+.. Change to the root user: 
+# su 
+
+.. Go to root directory:
+# cd/root
+
+. Prepare the VM for deployment using the following commands: 
+.. sudo yum install -y yum-utils device-mapper-persistent-data vm2
+
+.. sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+.. sudo yum-config-manager --enable docker-ce-edge
+
+.. sudo yum install docker-ce
+
+.. systemctl start docker
+
+.. yum install java-1.8.0-openjdk
+
+. Create the cs folder from the root directory:
+
+.. mkdir cs
+.. cd cs
+.. # pwd (/root/cs)
+
+
+. Log in to Cloud Secure 
+
+.. Click the link on the Invitation Mail using a browser. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
