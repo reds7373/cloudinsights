@@ -163,7 +163,7 @@ You can further align your time-series charts (line, area, etc.) by aggregating 
 
 The minimum allowed interval is ten minutes. A small interval combined with a long time range may result in an "Aggregation interval resulted in too many data points." warning. You might see this if you have a small interval and increase the dashboard time frame to 7 days. In this case, Insight will temporarily increase the aggregation interval to 1 hour until you select a smaller time frame.
 
-You can also aggregate data in the bar chart widget and single-value widget.
+You can also aggregate data in the table widget, bar chart widget, and single-value widget.
 
 Most asset counters aggregate to _Avg_ by default. Some counters aggregate to _Max, Min_, or _Sum_ by default. For example, port errors aggregate to _Sum_ by default, where storage IOPS aggregate to _Avg_.
 
