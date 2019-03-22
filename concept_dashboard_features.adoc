@@ -165,7 +165,7 @@ Performance data in a table widget can also be rolled up by Avg, Max, Min, or Su
 . If necessary, add the desired performance data columns (for example, IOPS or Latency) by clicking the "gear" icon and selectimng the columns to add.
 . If necessary, add a column for the field you want the data grouped by, for example, _Data Center_.
 . In the *Group By* field, select the desired grouping field
-. At the top of any performance data column (for example, _IOPS - Total_), click the "three dots" menu and select one of the Roll Up methods. Roll-up can be applied individually to each performance counter, so for example you can roll up Latency by Avg and IOPS by Sum in the same table widget.
+. At the top of any performance data column (for example, _IOPS - Total_), click the "three dots" menu and select one of the Roll Up methods. Roll-up can be applied individually to each performance counter. For example, you can roll up Latency by Avg and IOPS by Sum in the same table widget.
 . Save the widget, and Save the dashboard.
 
 image:TableRollUpExample.png[Table Roll Up Example]
