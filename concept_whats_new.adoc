@@ -23,7 +23,7 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 ==== Roll Up Data in Table Widget
 
-Table widgets in dashboards now allow link:concept_dashboard_features.adoc#roll-up-in-a-table-widget[roll-up of data]. You must first choose a field to "Group By", after which any columns in the table that are displaying performance data can be rolled up by Avg, Max, Min, or Sum. 
+Table widgets in dashboards allow link:concept_dashboard_features.adoc#roll-up-in-a-table-widget[roll-up of data]. You must first choose a field to "Group By", after which any columns in the table that are displaying performance data can be rolled up by Avg, Max, Min, or Sum. 
 
 ==== Email Notifications for Subscription-related Events
 
