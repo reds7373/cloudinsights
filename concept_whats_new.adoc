@@ -21,6 +21,10 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 === *March 2019*
 
+==== Roll Up Data in Table Widget
+
+Table widgets in dashboards now allow link:concept_dashboard_features.adoc#roll-up-in-a-table-widget[roll-up of data]. You must first choose a field to "Group By", after which any columns in the table that are displaying performance data can be rolled up by Avg, Max, Min, or Sum. 
+
 ==== Email Notifications for Subscription-related Events
 
 You can select recipients for email link:concept_notifications_email.html[notifications] when subscription-related events occur, such as upcoming trial expiration or subscribed account changes. You can choose recipients for these notifications from among following:
