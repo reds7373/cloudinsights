@@ -157,6 +157,19 @@ If you have set a filter for the query, the data that is rolled up is based on t
 
 Note that when you choose to roll up a widget by any field (for example, _Model_), you will still need to Filter by that field in order to properly display the data for that field on the chart or table.
 
+==== Roll Up in a Table Widget
+
+Performance data in a table widget can also be rolled up by Avg, Max, Min, or Sum. To roll up performance data, do the following:
+
+. Add or edit a table widget on your dashboard.
+. If necessary, add the desired performance data columns (for example, IOPS or Latency) by clicking the "gear" icon and selectimng the columns to add.
+. If necessary, add a column for the field you want the data grouped by, for example, _Data Center_.
+. In the *Group By* field, select the desired grouping field
+. At the top of any performance data column (for example, _IOPS - Total_), click the "three dots" menu and select one of the Roll Up methods.
+. Save the widget, and Save the dashboard.
+
+image:TableRollUpExample.png[Table Roll Up Example]
+
 === Aggregating data
 
 You can further align your time-series charts (line, area, etc.) by aggregating data points into minute, hour, or day buckets before that data is subsequently rolled up by attribute (if chosen). You can choose to aggregate data points according to their _Avg, Max, Min, or Sum_, or by the _Last_ data point collected during the chosen interval. To choose an aggregation method, click on *More options* in the widget's query section.
