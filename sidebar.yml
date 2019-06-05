@@ -94,6 +94,8 @@ entries:
             url: /task_dc_hp_3par.html
           - title: HP Command View AE
             url: /task_dc_hpe_commandview.html
+          - title: Nimble Storage
+            url: /task_dc_hpe_nimble.html
       - title: Hitachi Data Systems
         entries:
           - title: HDS Command Suite
