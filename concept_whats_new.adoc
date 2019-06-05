@@ -24,8 +24,7 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 * link:task_dc_hpe_nimble.html[HPE Nimble Storage] has been added as an Infrastructure data collector.
 
-...
-
+'''
 === *May 2019*
 
 ==== New Service Data Collector: Kapacitor
