@@ -18,7 +18,17 @@ keywords: features
 [lead]
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available with Cloud Insights.
 
+=== *June 2019*
+
+==== New Infrastructure Data Collector: HPE Nimble Storage
+
+* link:task_dc_hpe_nimble.html[HPE Nimble Storage] has been added as an Infrastructure data collector.
+
 === *May 2019*
+
+==== New Service Data Collector: Kapacitor
+
+* link:task_config_telegraf_kapacitor.html[Kapacitor] has been added as a data collector for services.
 
 ==== New Service Data Collector: Kapacitor
 
