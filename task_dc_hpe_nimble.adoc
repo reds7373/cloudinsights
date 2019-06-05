@@ -26,6 +26,7 @@ For each asset type acquired by Cloud Insights, the most common terminology used
 
 [cols=2*, options="header", cols"50,50"]
 |===
+|Vendor/Model Term | Cloud Insights Term
 |Array|Storage
 |Disk|Disk
 |Volume|Volume
