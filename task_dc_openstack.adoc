@@ -44,6 +44,25 @@ The OpenStack (REST API / KVM) data collector acquires inventory data for all Op
 
 == Configuration
 
+By default, only admin users can access the OpenStack REST APIs which Cloud Insights uses to collect data from Openstack. However, the Cloud Insights OpenStack data collector can use a non-admin user role to be able to collect data from the cluster. To allow this, you must modify the policy file for the OpenStack Nova service to allow users other than admin to make the REST calls. For advanced policy configurations, please refer to the link:https://docs.openstack.org/oslo.policy/latest/admin/policy-json-file.html[*Openstack documentation*]. 
+
+Follow these steps to allow non-admin user to make the RESt API calls:
+
+. Log in to the OpenStack controller. 
+. Use text editor to open /etc/nova/policy.json and add the following.
+
+ {
+                 "os_compute_api:os-availability-zone:detail": "",
+                 "os_compute_api:os-hypervisors": "",
+                 "os_compute_api:servers:detail:get_all_tenants": "",
+ }
+
+. Restart the Nova service:
+
+ systemctl restart openstack-nova-api.service
+
+
+
 [cols=2*, options="header", cols"50,50"]
 |===
 |Field|Description
