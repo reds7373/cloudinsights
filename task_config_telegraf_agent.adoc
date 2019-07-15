@@ -219,7 +219,11 @@ To uninstall the agent on macOS, in a Bash terminal, run the following:
 
 . Stop the Telegraf service using the following command:
 +
- sudo launchctl stop telegraf
+  `brew services stop telegraf`
+  
+. Remove the Telegraf package:
++
+`brew remove telegraf`
 
 ////
 . Remove the Telegraf package:
@@ -228,6 +232,15 @@ To uninstall the agent on macOS, in a Bash terminal, run the following:
  brew remove telegraf
 ////
 
+. Remove any reamining configuration files:
++
+`rm -rf /usr/local/etc/telegraf*`
+
+. Remove reamining log files:
++ `rm -rf /usr/local/var/log/telegraf.*`
+
+
+////
 . Copy the Uninstall command to /tmp and execute it:
 
  cp /Applications/telegraf.app/scripts/uninstall /tmp
@@ -239,7 +252,7 @@ To uninstall the agent on macOS, in a Bash terminal, run the following:
 +
  rm -rf /usr/local/etc/telegraf*
  rm -rf /usr/local/var/log/telegraf.*
-
+////
 
 === Kubernetes
 image:AgentInstallKubernetes.png[Kubernetes Agent Install]
