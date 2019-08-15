@@ -18,6 +18,10 @@ keywords: features
 [lead]
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available with Cloud Insights.
 
+=== *August 2019*
+
+
+
 === *July 2019*
 
 ==== Dashboard Improvements
