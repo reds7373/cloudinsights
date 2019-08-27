@@ -247,6 +247,8 @@ The Latency line is now drawn at its own scale, which is displayed on the right 
 
 image::SecondaryAxisExplained.png[Secondary Axis example]
 
+To show the Y-Axis title on your saved widget, click the "three dots" menu and choose _Show Y-Axis Title_. You can show the title for an axis as long as you are plotting only a single metric along that axis.
+
 == Expressions in widgets
 
 In a dashboard, any time series widget (line, spline, area, stacked area) allows you to build expressions from metrics you choose, and show the result of those expressions in a single graph. The following examples use expressions to solve specific problems. In the first example, we want to show Read IOPS as a percentage of Total IOPS for all storage assets in our environment. The second example gives visibility into the "system" or "overhead" IOPS that occur in your environment--those IOPS that are not directly from reading or writing data.
