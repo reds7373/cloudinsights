@@ -247,6 +247,7 @@ The Latency line is now drawn at its own scale, which is displayed on the right 
 
 image::SecondaryAxisExplained.png[Secondary Axis example]
 
+
 To show the Y-Axis title on your saved widget, click the "three dots" menu and choose _Show Y-Axis Title_. You can show the title for an axis as long as you are plotting only a single metric along that axis.
 
 == Expressions in widgets
