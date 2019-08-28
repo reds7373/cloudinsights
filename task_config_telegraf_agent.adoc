@@ -318,7 +318,13 @@ These Kubernetes objects are automatically created as part of the Kubernetes age
     - system:serviceaccount:monitoring:telegraf-user
     groups: []
 ----
-    
+
+==== Installing the Kubernetes kube-state-metrics server 
+
+When you install the kube-state-metrics server you can enable colletction of the following Kubernetes objects: StatefulSet, DaemonSet, Deployment, PV, PVC, ReplicaSet, Service, Namespace, Secret, ConfigMap, Pod Volume, and Ingress. 
+
+Use the link:task_config_telegraf_kubernetes.html#objects-and-counters[documentation] to install the kube-state-metrics server.
+
 ==== Uninstalling the Agent
 
 To uninstall the agent on Kubernetes, do the following:
