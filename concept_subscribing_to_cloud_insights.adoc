@@ -30,8 +30,6 @@ The features and functionality available to you in Cloud Insights depend on the 
 +
 NOTE: The features, data retention times, and objects or metrics collected in Cloud Insights Basic Edition are subject to change with or without notice. 
 
-INFORMATION: Downgrading to Basic Edition will delete any non-NetApp data collectors in your environment. Any data associated with those data collectors will also be deleted. 
-
 * *Standard Edition* is available via subscription and offers all the features of Basic Edition plus more.
 
 === Key Features
@@ -59,6 +57,8 @@ Here are some of the key features available in Basic and Standard Edition:
 |Online Documentation & Knowledgebase|&check; |&check; 
 |Technical Support|-|&check; 
 |===
+
+NOTE: Downgrading to Basic Edition will delete any non-NetApp data collectors in your environment. Any data associated with those data collectors will also be deleted. 
 
 While using Cloud Insights, if you see a padlock icon image:padlock.png[Padlock], it means the feature is not available in your current Edition, or is available in a limited form. Upgrade for full access to the feature.
 
