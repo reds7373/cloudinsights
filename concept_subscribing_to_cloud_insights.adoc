@@ -29,6 +29,8 @@ The features and functionality available to you in Cloud Insights depend on the 
 * *Basic Edition* is free and available to existing NetApp customers with an active NetApp support account.
 +
 NOTE: The features, data retention times, and objects or metrics collected in Cloud Insights Basic Edition are subject to change with or without notice. 
++
+INFO: Downgrading to Basic Edition will delete any non-NetApp data collectors in your environment. Any data associated with those data collectors will also be deleted. 
 
 * *Standard Edition* is available via subscription and offers all the features of Basic Edition plus more.
 
