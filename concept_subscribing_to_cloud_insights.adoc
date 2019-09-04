@@ -66,7 +66,7 @@ While using Cloud Insights, if you see a padlock icon image:padlock.png[Padlock]
 
 When you sign up for Cloud Insights and your environment is active, you enter into a free, 14-day trial of Cloud Insights. During this trial you can explore all the features that Cloud Insights Standard Edition has to offer, in your own environment.   
 
-At any time during your trial period, you can subscribe to Cloud Insights. Subscribing to Cloud Insights ensures uninterrupted access to your data as well as extended link:https://docs.netapp.com/us-en/cloudinsights/concept_requesting_support.html[*product support*] options (Standard Edition or higher). 
+At any time during your trial period, you can subscribe to Cloud Insights. Subscribing to Cloud Insights ensures uninterrupted access to your data as well as extended link:https://docs.netapp.com/us-en/cloudinsights/concept_requesting_support.html[*product support*] options (extended Support options available with Standard Edition or higher). 
 
 Cloud Insights displays a banner when your free trial is nearing its end. Within that banner is a _View Subscription_ link, which opens the *Admin > Subscription* page. Non-Admin users will see the banner but will not be able to go to the Subscription page.
 
