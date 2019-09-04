@@ -80,7 +80,7 @@ If your free trial has expired and you have not yet subscribed to Cloud Insights
 ////
 To subscribe, go to *Admin > Subscription*. On this page you can view your subscription options, view or modify your managed units, and calculate your estimated pricing. Subscription options include the following:
 
-* *Basic Edition* is free and gives you 7 days of data retention and access to Cloud Insights basic features
+* *Basic Edition* is free and gives you 7 days of data retention and access to Cloud Insights basic features. Basic edition supports NetApp-only data collectors. If you downgrade to Basic Edition, any non-NetApp data collectors you have configured will be removed.
 * *Standard Edition* gives you everything included in Basic Edition, plus an increase to 90 days of data retention as well as access to NetApp Technical Support.
 ////
 
