@@ -30,7 +30,7 @@ Select the Operating System or Platform on which the Telegraf agent is installed
 
 . Follow the configuration steps to configure the data collector. The instructions vary depending on the type of Operating System or Platform you are using to collect data. 
 
-image:ElasticsearchDCConfigLinux.png[Elasticsearch configuration]
+image:NewElasticsearch.png[Elasticsearch configuration]
 
 == Setup
 Information may be found in the link:https://www.elastic.co/guide/index.html[Elasticsearch documentation].
