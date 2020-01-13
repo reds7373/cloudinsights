@@ -31,7 +31,7 @@ Select the Operating System or Platform on which the Telegraf agent is installed
 
 . Follow the configuration steps to configure the data collector. The instructions vary depending on the type of Operating System or Platform you are using to collect data. 
 
-image:ActiveMQDCConfigWindows.png[ActiveMQ configuration]
+image:NewActiveMQ.png[ActiveMQ configuration]
 
 
 == Setup
