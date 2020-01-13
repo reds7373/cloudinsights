@@ -30,8 +30,8 @@ Select the Operating System or Platform on which the Telegraf agent is installed
 
 . Follow the configuration steps to configure the data collector. The instructions vary depending on the type of Operating System or Platform you are using to collect data. 
 
-image:HadoopDCConfigLinux-1.png[Hadoop configuration]
-image:HadoopDCConfigLinux-2.png[Hadoop configuration]
+image:NewHadoop.png[Hadoop configuration]
+//image:HadoopDCConfigLinux-2.png[Hadoop configuration]
 
 == Setup
 
