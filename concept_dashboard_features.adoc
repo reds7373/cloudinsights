@@ -134,11 +134,27 @@ Note that when you choose to roll up a widget by any field (for example, _Model_
 
 You can further align your time-series charts (line, area, etc.) by aggregating data points into minute, hour, or day buckets before that data is subsequently rolled up by attribute (if chosen). You can choose to aggregate data points according to their _Avg, Max, Min, or Sum_, or by the _Last_ data point collected during the chosen interval. To choose an aggregation method, click on *More options* in the widget's query section.
 
-The minimum allowed interval is ten minutes. A small interval combined with a long time range may result in an "Aggregation interval resulted in too many data points." warning. You might see this if you have a small interval and increase the dashboard time frame to 7 days. In this case, Insight will temporarily increase the aggregation interval to 1 hour until you select a smaller time frame.
+==== Understanding Aggregation
+
+Let's say we have a chart made up of data points that are collected from an object once every minute. If you are only interested in understanding hourly trends, having 60 data points in each hour's worth of data is overkill. In that case, you might aggregate the data into one-hour buckets, which would give you a single data point for each hour. You might choose to aggregate the data points into a single average number for each hour, or you might only be interested in the maximum data point that occurred during each hour. In these cases, you could choose to aggregate the data into one-hour buckets by _average_ or _maximum_. If you further want to see the averages or maximums in each of your company's data centers, you would choose to Roll Up by the _Data Center_ attribute.
+
+Aggregating data allows charts to clean up the messiness of having too many data points while still preserving useful trends. 
+
+==== Optimized versus Custom aggregation
+
+In widgets, you can choose between an _Optimized_ time aggregation interval or a _Custom_ interval that you set. Optimized aggregation automatically selects the right time interval based on the selected dashboard time range (or widget time range, if overriding the dashboard time). The interval dynamically changes as the dashboard or widget time range is changed.
+
+For example, if your dashboard or widget time range is 24 hours, Cloud Insights by default will optimize your line chart data into 
+
+
+==== More about Aggregation
+
+In most cases, the minimum allowed interval is ten minutes. Note that a small interval combined with a long time range may result in an "Aggregation interval resulted in too many data points." warning. For example, you might see this if you have a small interval and increase the dashboard time frame to 7 days. In this case, Insight will temporarily increase the aggregation interval to 1 hour until you select a smaller time frame.
 
 You can also aggregate data in the bar chart widget and single-value widget.
 
 Most asset counters aggregate to _Avg_ by default. Some counters aggregate to _Max, Min_, or _Sum_ by default. For example, port errors aggregate to _Sum_ by default, where storage IOPS aggregate to _Avg_.
+
 
 == Showing Top/Bottom Results
 
