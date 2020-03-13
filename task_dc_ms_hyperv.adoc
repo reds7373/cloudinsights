@@ -70,6 +70,15 @@ NOTE: The Hyper-V data collector requires a Windows Acquisition Unit.
 
            
 == Troubleshooting
+Some things to try if you encounter problems with this data collector:
+
+[cols=2*, options="header", cols"50,50"]
+|===
+|Problem:|Try this:
+|"Lack of TrustedHost configuration" messaging
+|Please refer to Microsoft documentation on Installation and Configuration for Windows Remote Management:
+https://docs.microsoft.com/en-us/windows/win32/winrm/installation-and-configuration-for-windows-remote-management
+|===
 
 Additional information on this Data Collector may be found from the link:concept_requesting_support.html[Support] page or in the link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf[Data Collector Support Matrix].
 
