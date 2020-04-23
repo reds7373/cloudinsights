@@ -24,6 +24,10 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 Time range choices for dashboards and other Cloud insights pages now include _Last 1 Hour_ and _Last 15 Minutes_.
 
+==== Keyboard Navigation in Drop-Downs
+
+Most drop-down menus in Cloud Insights allow for navigation using keyboard arrow keys. Select items with Enter
+
 ==== Cloud Secure Updates
 
 Cloud Insights includes the following recent Cloud Secure changes.
