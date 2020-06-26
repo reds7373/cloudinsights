@@ -26,11 +26,11 @@ Null values in data collection can cause gaps in the plotting of time-series wid
 
 Cloud Insights will show a gap in time-series widgets if there is null data for the following intervals:
 
-* Infastructure data (storage, VM, Ec2, ports, etc.): 1 hour. If there is null data from a data collector for a period of 1 hour or more, Cloud Insights will show a gap in the charts. Otherwise, no gap will be shown.
+* Infrastructure data (storage, VM, Ec2, ports, etc.): 1 hour. If there is null data from a data collector for a period of 1 hour or more, Cloud Insights will show a gap in the charts. Otherwise, no gap will be shown.
 
 * Integration data (Kubernetes, ONTAP Advanced Metrics, etc.): Aggregation time interval x 2. For example, if the widget-specific aggregation interval is set at 1 minute, Cloud Insights will only show a gap if there is null data for two minutes or more. 
 
-The default aggregation time interval for "Last 1 Hour" is now 1 minute, to better accomodate handling of null data gaps.
+The default aggregation time interval for "Last 1 Hour" is now 1 minute, to better accommodate handling of null data gaps.
 
 
 === June 2020
