@@ -18,7 +18,7 @@ summary: Configuring Azure compute data collector.
 
 [.lead]
 
-Cloud Insights uses the Azure compute data collector to acquire inventory and performance data from Azure compute instances. 
+Cloud Insights uses the Azure compute data collector to acquire inventory and performance data from Azure VMs and VHD instances. 
 
 == Requirements
 
