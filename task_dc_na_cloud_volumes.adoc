@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_dc_na_cloud_volumes.html
-summary: Configure NetApp StorageGrid data collector
+summary: Configure NetApp Cloud Volumes data collector
 keywords: data collector, queries, create
 ---
 
