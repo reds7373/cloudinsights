@@ -5,7 +5,7 @@ summary: Configure Google Compute data collector
 keywords: data collector, queries, create
 ---
 
-= NetApp Google Compute data collector
+= NetApp Google Compute and Storage data collector
 
 :toc: macro
 :hardbreaks:
@@ -19,7 +19,7 @@ keywords: data collector, queries, create
 
 [.lead]
 
-This data collector supports inventory collection from Google Compute cloud platform configurations. 
+This data collector supports inventory collection from Google Compute and Storage cloud platform configurations. 
 
 == Configuration
 
