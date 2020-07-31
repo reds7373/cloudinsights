@@ -5,7 +5,7 @@ keywords: data collector, EC2,
 summary: Configuring Amazon EC2 data collector.
 ---
 
-= Configuring the Amazon EC2 data collector
+= Configuring the Amazon EC2 and EBS data collector
 
 
 :toc: macro
