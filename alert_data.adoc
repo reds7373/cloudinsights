@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: alert_data.html
-keywords: alert, Critical, Warning, Low, Synopsis, Time range, Start time, End time, user 
+keywords: alert, Critical, Warning, Low, user, attack, ransomware
 summary: alerts page 
 ---
 
