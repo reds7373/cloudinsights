@@ -20,6 +20,10 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 === September 2020
 
+==== "No Expire" Subscription Bundle
+
+Cloud Insights subscriptions are now available in a services bundle that is charged on a recurring monthly basis. Such subscriptions do not have an effective end date and are therefore considered ‘evergreen’. Environments utilizing evergreen subscriptions will see an artificial subscription end date of 10 years out.
+
 ==== New API Category for Data Ingestion
 
 Cloud Insights has added a *Data Ingestion* API category, giving you greater control over custom data and agents. Detailed documentation for this and other API Categories can be found in Cloud Insights by navigating to *Admin > API Access* and clicking the _API Documentation_ link.
