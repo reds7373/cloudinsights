@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: reference_CI_CS_splunk_integration.html
+summary: You can push Cloud Secure alerts to Splunk ising the Cloud Secure API.
+keywords: integration, api, splunk, 
+---
+
+= Cloud Insights / Cloud Secure integration with Splunk
+
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can push alerts into Splunk using the powerful Cloud Secure API.
+
+The instructions below are provided in .PDF format. 
+
+Click the link to open.
+Right-click and choose _Save as..._ to download a copy.
+
+link:http://docs.netapp.com/us-en/cloudinsights/CloudInsights_CloudSecure_Splunk_integration_guide.pdf[*Cloud Insights / Cloud Secure Splunk API integration Guide*]
+
+
+
+
+
+
+
