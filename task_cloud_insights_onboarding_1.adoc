@@ -47,7 +47,7 @@ When you log in to Cloud Insights for the first time, you are presented with a c
 * If your primary focus will be on data, cost, usage statistics, etc., then choose *Monitor and optimize your infrastructure*.
 * If your primary concern is around security, choose *Secure your data from Ransomware and insider threat*.
 
-image:Onboarding_ChooseYourAdventure.html[Choose Your Adventure]
+image:Onboarding_ChooseYourAdventure.png[Choose Your Adventure]
 
 NOTE: Regardless of the initial path you complete, you can configure the other path at any later time.
 
