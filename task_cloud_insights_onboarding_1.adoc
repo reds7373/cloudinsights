@@ -44,8 +44,8 @@ Select Cloud Insights.
 
 When you log in to Cloud Insights for the first time, you are presented with a choice of paths to take. 
 
-* If your primary focus will be on data, cost, usage statistics, etc., then choose *Monitor and optimize your infrastructure*.
-* If your primary concern is around security, choose *Secure your data from Ransomware and insider threat*.
+* If your primary focus will be on data, cost, usage statistics, etc., then choose *Set up Monitor and Optimize*.
+* If your primary concern is around security, choose *Set up Cloud Secure*.
 
 image:Onboarding_ChooseYourAdventure.png[Choose Your Adventure]
 
