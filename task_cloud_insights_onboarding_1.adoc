@@ -40,6 +40,18 @@ Enter your email address and password. You will then be taken to NetApp's cloud 
 
 Select Cloud Insights.
 
+== Choose Your Path
+
+When you log in to Cloud Insights for the first time, you are presented with a choice of paths to take. 
+
+* If your primary focus will be on data, cost, usage statistics, etc., then choose *Monitor and optimize your infrastructure*.
+* If your primary concern is around security, choose *Secure your data from Ransomware and insider threat*.
+
+image:Onboarding_ChooseYourAdventure.html[Choose Your Adventure]
+
+NOTE: Regardless of the initial path you complete, you can configure the other path at any later time.
+
+
 == Starting your Cloud Insights free trial
 
 If this is your first time logging in to Cloud Insights, under the Cloud Insights offering, click on *Start Free Trial*. Cloud Insights will then create your company's environment.
