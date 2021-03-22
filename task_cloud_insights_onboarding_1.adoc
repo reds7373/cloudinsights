@@ -49,6 +49,8 @@ When you log in to Cloud Insights for the first time, you are presented with a c
 
 image:Onboarding_ChooseYourAdventure.png[Choose Your Adventure]
 
+Simply follow the instructions to set up your environment on whichever path you choose.
+
 NOTE: Regardless of the initial path you complete, you can configure the other path at any later time.
 
 
