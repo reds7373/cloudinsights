@@ -40,23 +40,23 @@ Enter your email address and password. You will then be taken to NetApp's cloud 
 
 Select Cloud Insights.
 
+
+== Starting your Cloud Insights free trial
+
+If this is your first time logging in to Cloud Insights, under the Cloud Insights offering, click on *Start Free Trial*. Cloud Insights will then create your company's environment.
+
 == Choose Your Path
 
 When you log in to Cloud Insights for the first time, you are presented with a choice of paths to take. 
 
-* If your primary focus will be on data, cost, usage statistics, etc., then choose *Set up Monitor and Optimize*.
-* If your primary concern is around security, choose *Set up Cloud Secure*.
+* If your primary focus will be on infrastructure and application monitoring and optimization, then choose *Set up Monitor and Optimize*.
+* If your primary concern is around ransomware and insider threat, choose *Set up Cloud Secure*.
 
 image:Onboarding_ChooseYourAdventure.png[Choose Your Adventure]
 
 Simply follow the instructions to set up your environment on whichever path you choose.
 
 NOTE: Regardless of the initial path you complete, you can configure the other path at any later time.
-
-
-== Starting your Cloud Insights free trial
-
-If this is your first time logging in to Cloud Insights, under the Cloud Insights offering, click on *Start Free Trial*. Cloud Insights will then create your company's environment.
 
 Once the creation of your environment is complete, you can use your Cloud Central credentials to log in and start your free, 30-day trial of Cloud Insights. During this trial you can explore all the features that Cloud Insights Standard Edition has to offer. 
 
