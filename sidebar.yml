@@ -3,6 +3,12 @@ entries:
     url: /index.html
   - title: What's New
     url: /concept_whats_new.html
+  - title: Release Notes and Known Issues
+    entries:
+      - title: Release Notes
+        url: /reference_release_notes.html
+      - title: Known Issues
+        url: /reference_known_issues.html
 
   - title: Signing Up for Cloud Insights
     url: /task_cloud_insights_onboarding_1.html
