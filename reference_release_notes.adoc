@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concept_release_notes.html
+permalink: reference_release_notes.html
 summary: Release Notes for Cloud Insights
 keywords: coming soon
 ---
