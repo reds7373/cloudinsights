@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: reference_known_issues.html
+summary: Release Notes for Cloud Insights
+keywords: coming soon
+---
+
+= Known issues with Cloud Insights
+
+[.lead]
+We try our best to ensure a problem-free experience for our users, but even we don't always have all the answers. Here are some things to be aware of as you use CLoud Insights.
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/ 
+
+
+=== August 2021
+
+|==
+|Problem|Information
+| |
+|===
